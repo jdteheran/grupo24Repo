@@ -1,5 +1,7 @@
 
-let numero = 8
+let numero = 104712
+
+console.log(esPrimo(numero));
 
 function esPrimo(num) {
     let cont = 0
@@ -9,6 +11,11 @@ function esPrimo(num) {
             //cont++
         }
     }
-    
+
+    if (cont == 2) {
+        return true
+    }
+
+    return false
 }
 
