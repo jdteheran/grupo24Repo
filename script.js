@@ -1,5 +1,5 @@
 
-let numero = 104712
+let numero = 104
 
 console.log(esPrimo(numero));
 
